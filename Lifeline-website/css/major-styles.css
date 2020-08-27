@@ -1,0 +1,102 @@
+body {
+  overflow-x: hidden;
+  background: rgba(115, 113, 108, 0.1);
+}
+
+/* navbar section */
+.navbar {
+  background: rgba(115, 113, 108, 0.7) !important;
+}
+
+.other-button {
+  color: #f4f6ff !important;
+  font-weight: normal;
+  font-size: 150%;
+  border: 0px solid #ff847c;
+  border-radius: 15px;
+}
+
+.donate-button {
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff !important;
+}
+
+.other-button:hover {
+  border-bottom: 2px solid;
+}
+
+.donate-button:hover {
+  border: 2px solid;
+  border-color: #fff;
+}
+
+.navbar-toggler {
+  background: rgba(143, 181, 177, 0.7) !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.logo-text {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+
+/* <!-- Footer --> */
+#footer {
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #808080;
+  color: #fff;
+  line-height: 30px;
+  -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.social-icon {
+  width: 100%;
+  line-height: 20px;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.Copyright {
+  font-size: 18px;
+}
+
+.fa-facebook, .fa-instagram {
+  color: #fff !important;
+}
+
+.fa-facebook:hover {
+  color: rgba(66, 103, 178, 0.8) !important;
+}
+
+.fa-instagram:hover {
+  color: rgba(214, 36, 159, 0.8) !important;
+}
+
+.f {
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+.i {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,96 @@
+body{
+  overflow-x: hidden;
+}
+
+
+/* main theme */
+.school-logo{
+  width: 50%;
+  height: auto;
+  background-image: url("https://media.giphy.com/media/3gRWfmZMI0Cb2Hoaye/giphy.gif");
+  border-radius: 50%;
+}
+
+.school-logo:hover{
+  background-color: rgba(255,223,0, 0.4);
+
+}
+
+.school-stmt{
+  text-align: center;
+  margin-top: 105px;
+  background-color: #F0FFF0;
+  background-image: url("https://media.giphy.com/media/26BRyql7J3iOx875u/giphy.gif");
+  padding:50px, 0px;
+}
+
+hr{
+  width:50%;
+  padding top: 50px;
+}
+
+.heading {
+  padding-top: 3%;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.school-text {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 2%;
+  font-size: 120%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 33px;
+  text-align: center;
+}
+
+/* <!-- History slideshow section --> */
+
+.hisSlideshow{
+  -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.carousel-caption{
+  text-align: left;
+
+}
+
+h4{
+  background-color: rgba(30, 110, 3, 0.3);
+  color: white;
+
+}
+
+@media (min-width: 576px) {
+  .carousel-caption h3 { font-size: 1.3em;}
+  .carousel-caption p {font-size: 1.1em;}
+  .slideshow-img {height: 250px;}
+}
+@media (min-width: 768px) {
+  .carousel-caption h3 { font-size: 1.4em;}
+  .carousel-caption p {font-size: 1.2em;}
+  .slideshow-img {height: 250px;}
+}
+@media (min-width: 992px) {
+  .carousel-caption h3 { font-size: 3.0em;}
+  .carousel-caption p {font-size: 1.3em;}
+  .slideshow-img{height: 600px;}
+}
+@media (min-width: 1200px) {
+  .carousel-caption h3 { font-size: 3.0em;}
+  .carousel-caption p {font-size: 1.4em;}
+  .slideshow-img{height: 650px;}
+}
+
+.slideshow-heading{
+  padding: 50px 0px;
+  text-decoration: underline;
+  text-align: center;
+}
